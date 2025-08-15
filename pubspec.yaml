@@ -1,0 +1,89 @@
+name: teddex
+description: A new Flutter project.
+version: 4.4.0+44
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=2.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.4
+  layout:
+    path: layout
+  path_provider: ^2.0.12
+  dio: ^5.0.0
+  json_annotation: ^4.4.0
+  retrofit: ^4.0.1
+  floor: ^1.2.0
+  uuid: ^4.5.1
+  get_it: ^8.2.0
+  equatable: ^2.0.3
+  flutter_bloc: ^9.1.1
+  connectivity_plus: ^6.1.5
+  url_launcher: ^6.0.20
+  shared_preferences: ^2.0.13
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.4.0
+  flutter_svg: ^2.0.5
+  flutter_inappwebview: ^6.1.5
+  cached_network_image: ^3.2.3
+  #  permission_manager:
+  #    path: permission_manager
+  permission_handler: ^12.0.1
+  country_picker:
+    path: country_picker
+  pinput: ^5.0.1
+  encrypt: ^5.0.1
+  flutter_html: ^3.0.0
+  razorpay_flutter: ^1.4.0
+  share_plus: ^11.1.0
+  flutter_contacts: ^1.1.9+2
+  flutter_paypal: ^0.2.1
+  gap: ^3.0.1
+  html: ^0.15.2
+  device_info_plus: ^11.3.0
+  package_info_plus: ^8.3.1
+  version: ^3.0.2
+  curved_navigation_bar: ^1.0.3
+  carousel_slider: ^5.1.1
+  another_transformer_page_view: ^2.0.1
+  animated_notch_bottom_bar: ^1.0.0
+  percent_indicator: ^4.2.3
+  sliver_tools: ^0.2.12
+  custom_refresh_indicator: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.1.8
+  retrofit_generator: ^9.3.0
+  json_serializable: ^6.1.5
+  floor_generator: ^1.2.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/RobotoBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoLight.ttf
+          weight: 300
+
+flutter_intl:
+  enabled: true
